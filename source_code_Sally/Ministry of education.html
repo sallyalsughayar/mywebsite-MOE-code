@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>
+      Ministry of Education Jordan
+      </title>
+    </head>
+    <style>
+      #background{
+        background-image: url(education3.png);
+        height: 600px;
+      }
+      #title{
+        color: rgb(252, 252, 252);
+        font-size: 60px;
+        
+        text-align: center;
+        padding-top: 10%;
+
+      }
+        #container{display:flex;
+                    flex-direction:vertical;
+                    height: 100%;
+                    flex-direction: column;
+                    }
+        #header{flex-basis:20%;
+           height: 200px;}
+        #content{flex-basis:60%;}
+        /***************************************Footer*************************************************/
+        #footer{flex-basis:25%;
+        background-color: rgb(43, 58, 105);
+        color: white;
+        font-size: medium;
+        }
+       
+       /******************************************************************/
+      
+    
+        ul {
+             list-style-type: none;
+             margin-left:20%;
+             margin-top: 0%;
+             padding: 0;
+             overflow: hidden;
+             background-color:rgb(79, 84, 85) ;
+             width:65%;
+              }
+        li {
+            float: left;
+            }
+
+        li a {
+          font-size: large;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 10px 10px;
+            text-decoration: none;
+            width: fit-content;
+            }
+
+        li a:hover {
+        background-color: rgb(63, 79, 85);
+        width: fit-content;
+        
+        }
+        
+
+     .square
+     {  
+       
+       
+         display: inline-block;
+         border: 3px solid rgb(49, 130, 161);
+         
+         background-color: white;
+         width: 20%;
+         float: left ;
+         margin-top: -10%;
+         margin-left: 0%;
+         margin-right: 11%;
+         height: 300px;
+         margin-bottom: 15% ;
+         } 
+
+         .square img{ margin-left: 30%; margin-top: 3%;}
+
+         div .margin{ 
+                       margin-left: 20%;
+                        }
+
+   /********************************************************Team member pictures****************************************************************************************/
+   div.gallery {
+  border: 3px solid  rgb(49, 130, 161);
+  float: left;
+  margin-top: 5%;
+  
+
+}
+
+
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+  float: left;
+  
+}
+
+div.desc {
+  padding: 10px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.background{
+  margin-top: -5%;
+  background-color: rgb(221, 220, 221);
+height: 300px;}
+/*******************************************************************************************************************************************************************/
+/*news and events*/
+   div .newsandevents{display: inline-block; width: 100%;  margin-top: 5%; 
+   border-top:  3px solid rgb(49, 130, 161); background-color: rgb(242, 243, 243);
+   }
+   div .news {
+            width: 47%;
+            margin-top: 5%;
+            float: left;
+             border-right:3px solid rgb(49, 130, 161);
+              
+             }
+  
+  div .events{width: 47%;
+    margin-top: 5%;
+  float: right;
+    }
+ /*********************************location************************************/
+ .location{
+   display: inline-block;
+   border:2px rgb(52, 52, 53);
+   width: 100%;
+   height: fit-content;
+   text-align: center;
+   margin-top: 5%;
+ }
+div {font-family:Arial;
+}
+/***************************************************Button************************************************************/
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #777c81;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 70%;
+  padding: 5px;
+  width: 65%;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 15%;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+/***************************************************************************************************************************************************/
+</style>
+<body>
+  
+    
+    <!--------------------------------------------------------------------------------------------------------------------------------------->
+    <!-- header menu  -->
+    <div id="background">
+      
+   
+           <div>
+            <ul >
+               <li><img src="MOElogo.png" height="35%" width="35%" ></a></li>
+                 <li style="margin-top: 1%;"><a href="Homepage.html" class="active" > Homepage</a></li>
+                 <li style="margin-top: 1%;"><a href="EducationStages.html"> Education Stages</a></li>
+                 <li style="margin-top: 1%;" ><a href="OrganizationalStructure.html"> Organizational Structure</a></li>
+                 <li style="margin-top: 1%;"><a href="Awards"> Awards</a></li>
+                 <li style="margin-top: 1%;"><a href="Tenders"> Tenders </a></li>
+               <li style="margin-top: 1%;"><a href="Contact Us"> Contact Us </a></li>
+              </ul>
+              </div>    
+    <div id="title">
+      <p style="text-shadow: 2px 2px rgb(83, 82, 82);"><b>Ministry of Education Jordan<b></p>
+ </div>
+    </div>
+     <!-------------------------------------------------------------------------------------------------------------------------------------------->
+    <!--squares almost under the menu-->
+    <div class="background">
+    <div>
+         <div class="margin">
+         <ul class="square">
+           <img src="aboutus.png" width="30%" >
+         <li ><h2 style="color: rgb(88, 84, 84);">Schools:</h2>
+           <ol style="color: rgb(0, 10, 148);" >
+             <li> National Schools. </li>
+             <li> International Schools. </li>
+           </ol>
+         </li>
+         </ul>
+    </div>
+
+    <div class="margin">
+        <ul class="square">
+          <img src="services.png" width="30%" >
+        <li><h2 style="color: rgb(88, 84, 84);" >Services:</h2></li>
+        <ol style="color: rgb(0, 10, 148);" >
+              <li> e-Government services. </li>
+              <li> Students services. </li>
+              <li>Teachers and Employee's services.</li>
+              <button class="button" style="vertical-align:middle"><span>View all</span></button>
+        </ol>
+        </ul>
+    </div>
+
+    <div class="margin"  >
+       <ul class="square">
+        <img src="schools.png" width="30%" >
+       <li>
+           <h2 style="color: rgb(88, 84, 84);" >About us:</h2>
+       </li>
+       <li>
+       <ol style="color: rgb(0, 10, 148);" >
+          <li>Education system.</li>
+          <li>Vision and mission</li>
+      </ol>
+          </li>
+          </ul>
+    </div>
+    </div>
+    
+    <!------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+    <!--the previous teams and their pictutes-->
+     <!---first image -->
+     
+     <div >
+       <h1 style=" color: rgb(88, 84, 84); text-decoration: underline rgb(31, 30, 30); text-align: center;"> "Former Ministers of Education"</h1>
+     <div  style="margin-left: 15%;"class="responsive">
+      <div class="gallery">
+        <a target="_blank" href="img_5terre.jpg">
+          <img src="bassam.jpg" alt="Cinque Terre" width="600" height="400">
+        </a>
+        <div class="desc"><h2 style="color: rgb(78, 78, 78);">Bassam AlTalhouny</h2><br/> Since November 2018 till February 2019.<br/>As Minister of Education</div>
+      </div>
+    </div>
+    <div class="responsive">
+      <div class="gallery">
+        <a target="_blank" href="img_forest.jpg">
+          <img src="azmy.jpg" alt="D.Azmy Mahmoud Mohafatha" width="600" height="400">
+        </a>
+        <div class="desc"><h2 style="color: rgb(78, 78, 78);">Azmy Mahmoud Mohafathat</h4><br/> Since June 14, 2018 till November 2018.<br/>As Minister of Education</div>
+        <a href=""></a>
+      </div>
+    </div>
+    <div class="responsive">
+      <div class="gallery">
+        <a target="_blank" href="img_lights.jpg">
+          <img src="omar.jpg" alt="Northern Lights" width="600" height="400">
+        </a>
+        <div class="desc"><h2 style="color: rgb(78, 78, 78);">Omar Al-Razaz</h4><br/> Since January 2017 till June 2018.<br/>As Minister of Education</div>
+      </div>
+    </div>
+    <div style="width: 25%;"> 
+      <button class="button" style="vertical-align:middle"><span><b style="font-size: large;">View all former ministers</b></span></button>
+     </div>
+     </div >
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+                           <!----------------------------------------------------news and events----------------------------------------------------->
+<div class="newsandevents"> 
+  <div class="news">
+    <h2 style="color: rgb(79, 84, 85);">News:</h2>
+    <h4 style="color:rgb(49, 130, 161)"> 1.The activities of the training program "Curricula for the Future and Future Studies" were launched.</h4>
+    <p>
+      Under the patronage of the Minister of Education, Dr. Tayseer Al-Nuaimi, the activities of the training program 
+      "Curricula for Forward-Looking and Future Studies", organized by the Ministry in cooperation with the Arab Planning
+       Institute and the Ministry of Planning and International Cooperation,
+       kicked off, and its activities will continue until the 18th of this month. </p>
+    <h4 style="color:rgb(49, 130, 161)">2.Education ministry emphasizes the availability of public safety conditions and requirements in its schools</h4>
+    <p>
+      The Ministry of Education called on its directorates in the field
+       to ensure that the requirements and conditions for public safety in 
+       schools are available during the winter, in order to preserve the safety of students and teachers.<br/><br/><br/><br/></p>
+       
+      <div style="width: 25%;"> 
+       <button class="button" style="vertical-align:middle"><span> <a href="News.html">View all</a></span></button>
+      </div>
+  </div>
+  <div class="events">
+    <h2 style="color: rgb(79, 84, 85);">Events:</h2>
+    <h4 style="  color:rgb(49, 130, 161)">1.December 16</h4> 
+      <h4 style="text-decoration: underline rgb(67, 68, 68); text-align: center; color: rgb(79, 84, 85)">Military training and national education camps</h4>
+    <p>The military training and national education program comes from a deep
+       belief in the visions of His Majesty King Abdullah II Bin Al-Hussein, 
+       that the Jordanian person in general and the youth category in particular 
+       are the most valuable possessions of this country, as this program comes as a
+       vital and important factor in developing this straightforward approach to advance the level of awareness National students</p>
+       <h4 style="color:rgb(49, 130, 161)">2.October 26</h4> 
+      <h4 style=" text-decoration: underline rgb(67, 68, 68); text-align: center; color: rgb(79, 84, 85);"> The 33rd National Scout Meeting</h4>
+      <p> This scout meeting has been held annually for more than 30 years under the supervision of the Department of Educational Activities
+        Each directorate of education participates with 6 scouts from the stage of advanced scouting
+        This year, the meeting will be held in the camp of the martyrs of the Dignity Battle, the permanent scout / Southern Shouneh</p>
+        <div style="width: 25%;"> 
+          <button class="button" style="vertical-align:middle"><span>View all</span></button>
+         </div>
+  </div>
+  
+</div>
+
+<div class="location">
+  <h1 style=" color: rgb(96, 98, 99); text-decoration: underline rgb(47, 48, 48);">Location</h1>
+  <a href="https://www.google.com/maps/search/ministry+of+education+jordan+location/@31.9961676,35.8610953,13z/data=!3m1!4b1">
+    <img src="location.png" width=100% href >  
+  </a>
+</div>
+
+<div id="footer">
+   <div >
+      <p><b>Phonenumber: </b>07999999*** </p>
+      <p><b>Email: </b> Ministry@Jordan.com</p>
+    </div>
+    <div >
+      <p>
+        Address: Ministry of Education, Suleiman Al Nabulsi St 10, Amman
+      </p>  
+    <p>
+      Fax: + 962-6-5349079
+
+    </p> 
+    
+    <p style="text-decoration: overline ; text-align: center;"> All Rights Reserved to Ministry of Education  © 2019</p>
+   </div>
+    
+        
+</div>
+</body>
+</html>

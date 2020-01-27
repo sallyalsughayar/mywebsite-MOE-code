@@ -1,0 +1,92 @@
+<style>
+    body{font-family: 'Quicksand', sans-serif;}
+    h1{
+                 padding: 1%;
+                 margin-top: 7%;
+                 text-align: center;
+                 color: #717171;
+    
+    
+                 }
+         #background{
+        background-image: url(education3.png);
+        height: 300px;
+        margin-bottom: 2%;
+      }
+      #title{
+        color: rgb(252, 252, 252);
+        font-size: 60px;
+        
+        text-align: center;
+        padding-top: 3%;
+
+      }
+    
+            ul {
+              
+             list-style-type: none;
+             margin-left:20%;
+             margin-top: 0%;
+             padding: 0;
+             overflow: hidden;
+             background-color:rgb(79, 84, 85) ;
+             width:65%;
+              }
+        li {
+            float: left;
+            }
+
+        li a {
+          font-size: large;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 10px 10px;
+            text-decoration: none;
+            width: fit-content;
+            }
+
+        li a:hover {
+        background-color: rgb(63, 79, 85);
+        width: fit-content;
+        
+        }
+        #footer{flex-basis:25%;
+      background-color: rgb(43, 58, 105);
+      color: white;
+      font-size: medium;
+      padding: 1%;
+        margin-top: 2%;
+        }
+        .paragraph{background:linear-gradient(to bottom, #003399 0%, #00ccff 100%);
+        width: 60%;
+        color: white;
+    padding: 2%;
+margin-right: 5%;
+border-radius: 25px;
+float: right;
+}
+.container{ display: inline-block;
+width: 100%;}
+/*******************/
+.vertical-menu {
+float: left;
+  width: 25%;
+}
+
+.vertical-menu a {
+  background-color: #eee;
+  color: black;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.vertical-menu a:hover {
+  background-color: #ccc;
+}
+
+.vertical-menu a.active {
+  background-color: #003399;
+  color: white;
+} 
